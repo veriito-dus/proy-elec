@@ -168,8 +168,8 @@
         <div class="col-md-4 col-sm-4 col-xs-4" >
         </div>
         <div class="col-md-1 col-sm-1 col-xs-1" style= " text-align: center ;margin-top: 30px">
-        <form action="<?php echo base_url(); ?>index.php/view_inst/GUARDAR" method="post">
-                <input type="submit" value="GUARDAR" class="btn btn-primary" style="width:100px; height:50px">
+        <form action="<?php echo base_url(); ?>index.php/view_inst/GRAFICA" method="post">
+                <input type="submit" value="GRAFICA" class="btn btn-primary" style="width:100px; height:50px">
          </form>
         </div>
         <div class="col-md-4 col-sm-4 col-xs-4"style= " text-align: center ;margin-top: 30px">
