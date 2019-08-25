@@ -350,9 +350,23 @@
       <td>-</td>
       <td>-</td>
     </tr>
-    
   </tbody>
 </table>
+		<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-4" >
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-1" style= " text-align: center ;margin-top: 30px">
+        <form action="<?php echo base_url(); ?>index.php/view_inst/GUARDAR" method="post">
+                <input type="submit" value="GUARDAR" class="btn btn-warning" style="width:100px; height:50px">
+         </form>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-4"style= " text-align: center ;margin-top: 30px">
+        <form action="<?php echo base_url(); ?>index.php/view_inst/DESCARGAR" method="post">
+                <input type="submit" value="DESCARGAR" class="btn btn-warning" style="width:150px; height:50px;">
+         </form>
+    </div>
+</div>
 
 
         
