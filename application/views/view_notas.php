@@ -52,6 +52,11 @@
             <h1 style="font-size: 18px; margin-top: 30px;color:#ffffff" >MATERIA</h1>
             <input type="text" name="MATERIA" placeholder=" " style="width:150px; height:30px">
         </div>
+	    <div class="col-md-1 col-sm-1 col-xs-1"style= " text-align: center ;margin-top: 30px">
+        <form action="<?php echo base_url(); ?>index.php/view_inst/BUSCAR" method="post">
+                <input type="submit" value="BUSCAR" class="btn btn-danger" style="width:110px; height:50px;">
+         </form>
+    </div>
         <table class="table table-bordered" style= " text-align: center;background-color:#ffffff;margin-top: 30px">
     <thead>
     <tr>
@@ -359,12 +364,12 @@
         </div>
         <div class="col-md-1 col-sm-1 col-xs-1" style= " text-align: center ;margin-top: 30px">
         <form action="<?php echo base_url(); ?>index.php/view_inst/GUARDAR" method="post">
-                <input type="submit" value="GUARDAR" class="btn btn-warning" style="width:100px; height:50px">
+                <input type="submit" value="GUARDAR" class="btn btn-danger" style="width:100px; height:50px">
          </form>
         </div>
         <div class="col-md-4 col-sm-4 col-xs-4"style= " text-align: center ;margin-top: 30px">
         <form action="<?php echo base_url(); ?>index.php/view_inst/DESCARGAR" method="post">
-                <input type="submit" value="DESCARGAR" class="btn btn-warning" style="width:150px; height:50px;">
+                <input type="submit" value="DESCARGAR" class="btn btn-danger" style="width:150px; height:50px;">
          </form>
     </div>
 </div>
